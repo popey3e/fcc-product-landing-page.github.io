@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Header Section -->
+    <header id='header'>
+      
+        <nav id="nav-bar">
+        <ul>
+            <li><a class="nav-link" href="#video-product">Product Video</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            <li><a class="nav-link" href="#pre-order">Pre-Order</a></li>
+        </ul>
+        </nav>
+
+        <img 
+        src="https://www.marketing91.com/wp-content/uploads/2018/09/How-to-Sell-a-Product-with-Blogging-4.jpg" 
+        alt="Product Image" 
+        id="header-img" />
+
+    </header>
+
+    <!-- Main Section -->
+    <main id="main-section">
+      <section class="space" id="video-product">
+        <h2>Watch This!</h2>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/edtNX_g0fUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+
+      <section id="desc">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolor dolores magni, corrupti ipsa ad illo maiores quia, magnam animi a commodi aliquid adipisci expedita veritatis itaque quidem laboriosam ex.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam non, officiis molestias facere fugiat placeat vero voluptatibus, id, eligendi esse hic est quia vitae explicabo animi sit quaerat veritatis. Mollitia.
+        </p>
+      </section>
+
+      <section class="space" id="pricing">
+        <div class="product-card">
+          <header class="card-title">
+            <h3>Product 1</h3>
+          </header>
+          <div class="card-content">
+            <div class="product-img">
+              <img src="" alt="Product Image 1">
+            </div>
+            <div class="product-desc">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, dignissimos?Lorem ipsum dolor sit amet.</p>
+              <a href="#pre-order"><button type="submit">Pre Order Now</button></a>
+            </div>
+          </div>   
+        </div>
+
+        <div class="product-card big-one">
+          <header class="card-title">
+            <h3>Product 2</h3>
+          </header>
+          <div class="card-content">
+            <div class="product-img">
+              <img src="" alt="Product Image 2">
+            </div>
+            <div class="product-desc">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla</p>
+              <a href="#pre-order"><button type="submit">Pre Order Now</button></a>
+            </div>
+          </div>   
+        </div>
+
+        <div class="product-card">
+          <header class="card-title">
+            <h3>Product 3</h3>
+          </header>
+          <div class="card-content">
+            <div class="product-img">
+              <img src="" alt="Product Image 3">
+            </div>
+            <div class="product-desc">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla</p>
+              <a href="#pre-order"><button type="submit">Pre Order Now</button></a>
+            </div>
+          </div>   
+        </div>
+      </section>
+
+      <!-- FORM -->
+      <section class="space" id="pre-order">
+        <h2>Pre-Order Right Now!</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+          <select>
+            <option value="#">- Type of Product -</option>
+            <option value="type-1">Product 1</option>
+            <option value="type-2">Product 2</option>
+            <option value="type-3">Product 3</option>
+          </select>
+          <input id="submit" type="submit"></input>
+        </form>
+      </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="left-footer">
+            <a href="#"><h2>Product Page</h2></a>
+        </div>
+        <div class="right-footer">
+            <div class="terms">
+              <a href="#">Privacy</a>
+              <a href="#">Terms</a>
+              <a href="#">Contact</a>
+            </div>
+            <div class="copyrights">
+              <p>Copyright 2022. Made by Me</p>
+            </div>
+        </div>
+    </footer>
+
+  </div>
+    
+</body>
+</html>
